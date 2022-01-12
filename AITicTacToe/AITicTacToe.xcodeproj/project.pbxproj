@@ -8,19 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		A566EC26278DE4C0007EBE2B /* AITicTacToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566EC25278DE4C0007EBE2B /* AITicTacToeApp.swift */; };
-		A566EC28278DE4C0007EBE2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566EC27278DE4C0007EBE2B /* ContentView.swift */; };
+		A566EC28278DE4C0007EBE2B /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566EC27278DE4C0007EBE2B /* GameView.swift */; };
 		A566EC2A278DE4C4007EBE2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A566EC29278DE4C4007EBE2B /* Assets.xcassets */; };
 		A566EC2D278DE4C4007EBE2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A566EC2C278DE4C4007EBE2B /* Preview Assets.xcassets */; };
 		A566EC34278E609B007EBE2B /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566EC33278E609B007EBE2B /* Alerts.swift */; };
+		A566EC36278E7711007EBE2B /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566EC35278E7711007EBE2B /* GameViewModel.swift */; };
+		A566EC38278E7BA4007EBE2B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566EC37278E7BA4007EBE2B /* Model.swift */; };
+		A566EC3A278E7BE1007EBE2B /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566EC39278E7BE1007EBE2B /* CustomViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A566EC22278DE4C0007EBE2B /* AITicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AITicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A566EC25278DE4C0007EBE2B /* AITicTacToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITicTacToeApp.swift; sourceTree = "<group>"; };
-		A566EC27278DE4C0007EBE2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A566EC27278DE4C0007EBE2B /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		A566EC29278DE4C4007EBE2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A566EC2C278DE4C4007EBE2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A566EC33278E609B007EBE2B /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		A566EC35278E7711007EBE2B /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		A566EC37278E7BA4007EBE2B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A566EC39278E7BE1007EBE2B /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				A566EC25278DE4C0007EBE2B /* AITicTacToeApp.swift */,
-				A566EC27278DE4C0007EBE2B /* ContentView.swift */,
+				A566EC27278DE4C0007EBE2B /* GameView.swift */,
 				A566EC29278DE4C4007EBE2B /* Assets.xcassets */,
 				A566EC2B278DE4C4007EBE2B /* Preview Content */,
 				A566EC33278E609B007EBE2B /* Alerts.swift */,
+				A566EC35278E7711007EBE2B /* GameViewModel.swift */,
+				A566EC37278E7BA4007EBE2B /* Model.swift */,
+				A566EC39278E7BE1007EBE2B /* CustomViews.swift */,
 			);
 			path = AITicTacToe;
 			sourceTree = "<group>";
@@ -140,7 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A566EC28278DE4C0007EBE2B /* ContentView.swift in Sources */,
+				A566EC38278E7BA4007EBE2B /* Model.swift in Sources */,
+				A566EC36278E7711007EBE2B /* GameViewModel.swift in Sources */,
+				A566EC28278DE4C0007EBE2B /* GameView.swift in Sources */,
+				A566EC3A278E7BE1007EBE2B /* CustomViews.swift in Sources */,
 				A566EC34278E609B007EBE2B /* Alerts.swift in Sources */,
 				A566EC26278DE4C0007EBE2B /* AITicTacToeApp.swift in Sources */,
 			);
