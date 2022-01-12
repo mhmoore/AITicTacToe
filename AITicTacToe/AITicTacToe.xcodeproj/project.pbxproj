@@ -11,6 +11,7 @@
 		A566EC28278DE4C0007EBE2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566EC27278DE4C0007EBE2B /* ContentView.swift */; };
 		A566EC2A278DE4C4007EBE2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A566EC29278DE4C4007EBE2B /* Assets.xcassets */; };
 		A566EC2D278DE4C4007EBE2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A566EC2C278DE4C4007EBE2B /* Preview Assets.xcassets */; };
+		A566EC34278E609B007EBE2B /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566EC33278E609B007EBE2B /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A566EC27278DE4C0007EBE2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A566EC29278DE4C4007EBE2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A566EC2C278DE4C4007EBE2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A566EC33278E609B007EBE2B /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				A566EC27278DE4C0007EBE2B /* ContentView.swift */,
 				A566EC29278DE4C4007EBE2B /* Assets.xcassets */,
 				A566EC2B278DE4C4007EBE2B /* Preview Content */,
+				A566EC33278E609B007EBE2B /* Alerts.swift */,
 			);
 			path = AITicTacToe;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A566EC28278DE4C0007EBE2B /* ContentView.swift in Sources */,
+				A566EC34278E609B007EBE2B /* Alerts.swift in Sources */,
 				A566EC26278DE4C0007EBE2B /* AITicTacToeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +287,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.me.AITicTacToe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelhmoore.AITicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.me.AITicTacToe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelhmoore.AITicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
